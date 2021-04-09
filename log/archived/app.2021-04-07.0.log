@@ -1,0 +1,29 @@
+2021-04-07 08:54:12,010 INFO com.capgemini.training.app.SpringDataJpaAppApplication [restartedMain] Starting SpringDataJpaAppApplication on RAMSAI-VAJRAPU with PID 14344 (E:\CapgeminiTrainerLab\spring-data-jpa-app\target\classes started by Ram Sai Vajrapu in E:\CapgeminiTrainerLab\spring-data-jpa-app)
+2021-04-07 08:54:12,161 INFO com.capgemini.training.app.SpringDataJpaAppApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-07 08:54:13,001 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 08:54:13,001 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 08:54:20,629 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 08:54:21,859 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 976ms. Found 1 JPA repository interfaces.
+2021-04-07 08:54:33,169 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-04-07 08:54:33,302 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-07 08:54:33,303 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-07 08:54:33,303 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-04-07 08:54:33,844 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-07 08:54:33,844 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 20842 ms
+2021-04-07 08:54:37,201 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 08:54:38,383 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-04-07 08:54:42,590 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-07 08:54:43,730 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-07 08:54:46,533 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-07 08:54:46,893 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-07 08:55:02,550 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 08:55:02,769 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 08:55:02,798 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-07 08:55:18,785 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 08:55:21,937 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-04-07 08:55:26,181 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-07 08:55:27,508 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/springfox'
+2021-04-07 08:55:28,896 INFO com.capgemini.training.app.SpringDataJpaAppApplication [restartedMain] Started SpringDataJpaAppApplication in 82.791 seconds (JVM running for 93.781)
+2021-04-07 08:57:30,931 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 08:57:30,932 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-07 08:57:30,945 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
